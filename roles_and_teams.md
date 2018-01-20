@@ -30,13 +30,15 @@ All members should:
 
 ### Responsibilities
 
-* All Tiers: Ensure the repository meets the minimum requirements, such as having a ``LICENSE`` and ``README.md`` files.
-* All Tiers: At least one member should respond to an issue or pull request within one week
-* Tier 1 and 2: Use pull requests for most changes, rather than pushing directly to the master branch, to facilitate discussion on GitHub.
-* Tier 1 and 2: Ensure that pull requests will not break MDN Web Docs, using automated and manual checks as appropriate, before merging.
-* Tier 2 and 3: Repository admins can decide pull request policy (are reviews required, who can review, etc.). This policy should be documented.
-* Tier 1: Review pull requests for security impact before merging
-* Tier 1: A positive review is needed to merge a pull request, so that two people have seen the code before it goes into production.
+| Tier 1 | Tier 2 | Tier 3 | Responsibility |
+| ------ | ------ | ------ | -------------- |
+|   ✓    |   ✓    |   ✓    | Ensure the repository meets the minimum requirements, such as having a ``LICENSE`` and ``README.md`` files.|
+|   ✓    |   ✓    |   ✓    | At least one member should respond to an issue or pull request within one week |
+|   ✓    |   ✓    |        | Use pull requests for most changes, rather than pushing directly to the master branch, to facilitate discussion on GitHub.|
+|   ✓    |   ✓    |        | Ensure that pull requests will not break MDN Web Docs, using automated and manual checks as appropriate, before merging.|
+|        |   ✓    |   ✓    | Repository admins can decide pull request policy (are reviews required, who can review, etc.). This policy should be documented.|
+|   ✓    |        |        | Review pull requests for security impact before merging|
+|   ✓    |        |        | A positive review is needed to merge a pull request, so that two people have seen the code before it goes into production.|
 
 ## Organization Roles
 
