@@ -23,6 +23,11 @@ For Tier 3 projects, an outside collaborator can get administration permissions.
 
 Projects with no members should be [archived](https://help.github.com/articles/about-archiving-repositories/) or deleted by an organization owner.
 
+All members should:
+
+* Agree to abide by our [Code of conduct](CODE_OF_CONDUCT.md).
+* Use [Two factor authentication](https://github.com/blog/1614-two-factor-authentication) for their GitHub account.
+
 ### Responsibilities
 
 * All Tiers: Ensure the repository meets the minimum requirements, such as having a ``LICENSE`` and ``README.md`` files.
