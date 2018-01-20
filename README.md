@@ -1,10 +1,10 @@
-# Mozilla Developer Network (MDN) on Github
+# MDN Web Docs on Github
 
-Welcome to the mdn repository! This is a meta repository containing information, procedures, and resources related to all the repos inside the MDN organization — the Mozilla Developer Network's home on GitHub for demos, data, and other resources.
+Welcome to the ``mdn`` repository! This meta repository contains information, procedures, and resources related to all the repos inside the [MDN organization](https://github.com/mdn) — [MDN Web Doc](https://developer.mozilla.org)'s home on GitHub for code, data, and other resources.
 
 ## Adding a new project
 
-The MDN organization on GitHub is home to data stores used for various MDN projects, as well as for sample code, tools, and other projects that are useful to web developers as well as people documenting the open web.  We encourage contributions to existing projects, as well as the contribution of new projects that help us further our mission to teach web development.
+The [MDN organization on GitHub](https://github.com/mdn) is home to data stores used for various MDN projects, as well as for sample code, tools, and other projects that are useful to web developers as well as people documenting the open web.  We encourage contributions to existing projects, as well as the contribution of new projects that help us further our mission to teach web development.
 
 ### Structure of the MDN organization on GitHub
 
@@ -31,8 +31,8 @@ Some recommendations for your `contribute.dist` file:
 * Under `"participate"`, you should provide URLs that will help potential contributors or users of the project find assistance.
     * `"home"` should always be a link to the [MDN home page](https://developer.mozilla.org/).
     * `"docs"` should be a link to a page that explains the usage of the project, or to the page on MDN most closely affiliated with the example. For example, if the project is an example that's a key part of a guide article on MDN, this URL should refer to that article.
-    * `"mailing-list"` should link to a [Mozilla mailing list](https://lists.mozilla.org/listinfo) where the reader of the article can get help with the technology or concepts demonstrated by the code.
-    * `"irc"` should link to an appropriate place to get help understanding the code. If an appropriate [Mozilla IRC channel](https://wiki.mozilla.org/IRC#Commonly_Used_Mozilla_IRC_Channels) exists, link to that channel. Otherwise, you can link to the MDN content contributors' channel, [dev-mdc](https://www.mozilla.org/about/forums/#dev-mdc).
+    * `"mailing-list"` should link to the [Category on Discourse](https://discourse.mozilla.org/) or [Mozilla mailing list](https://lists.mozilla.org/listinfo) where the reader of the article can get help with the technology or concepts demonstrated by the code. If there is no specific topic or mailing list, then link to the [MDN Category on Discourse](https://discourse.mozilla.org/c/mdn).
+    * `"irc"` should link to an appropriate place to get help understanding the code. If an appropriate [Mozilla IRC channel](https://wiki.mozilla.org/IRC#Commonly_Used_Mozilla_IRC_Channels) exists, link to that channel. Otherwise, you can link to the MDN content contributors' channel, [#mdn](irc://irc.mozilla.org/#mdndev).
 * The `"keywords"` array should be an array of terms which describe the project's purpose or usage. A good guideline is to use the same values we use when tagging MDN articles (except in all lower-case); see [How to properly tag pages](https://developer.mozilla.org/en-US/docs/MDN/Contribute/Howto/Tag) on MDN.
 
 ## Making changes to MDN repositories
