@@ -9,9 +9,9 @@ Repositories are where the work gets done. GitHub splits [repository permissions
 
 The repositories can be categorized by their impact:
 
-* Tier 1: Code in this repo runs on Mozilla servers, and/or on mozilla.org domains. Changes need to be reviewed for security. Examples include [Kuma](https://github.com/mozilla/kuma), [KumaScript](https://github.com/mdn/kumascript), and [samples-server](https://github.com/mdn/samples-server) repositories.
-* Tier 2: Code and data in this repo appears on MDN Web Docs, but is served from an non-mozilla.org domain. Changes need to be reviewed to ensure they meet MDN standards. Examples include [browser-compat-data](https://github.com/mdn/browser-compat-data), [interactive-examples](https://github.com/mdn/interactive-examples), and [webaudio-examples](https://github.com/mdn/webaudio-examples) repositories.
-* Tier 3: Code and data in this repo do not appear on MDN Web Docs. Changes need to be reviewed to meet the standards of the repository maintainer(s). Examples include [pab](https://github.com/mdn/pab) and [wp-promote-mdn](https://github.com/mdn/wp-promote-mdn) repositories.
+* **Tier 1**: Code in this repo runs on Mozilla servers, on https://developer.mozilla.org, or on another mozilla.org domain. Changes need to be reviewed for security. Examples include [Kuma](https://github.com/mozilla/kuma), [KumaScript](https://github.com/mdn/kumascript), and [samples-server](https://github.com/mdn/samples-server) repositories.
+* **Tier 2**: Code and data in this repo appear on [MDN Web Docs](https://developer.mozilla.org), but are served from a non-mozilla.org domain. Changes need to be reviewed to ensure they meet MDN standards. Examples include [browser-compat-data](https://github.com/mdn/browser-compat-data), [interactive-examples](https://github.com/mdn/interactive-examples), and [webaudio-examples](https://github.com/mdn/webaudio-examples) repositories.
+* **Tier 3**: Code and data in this repo do not appear on MDN Web Docs. Changes need to be reviewed to meet the standards of the repository maintainer(s). Examples include [pab](https://github.com/mdn/pab) and [wp-promote-mdn](https://github.com/mdn/wp-promote-mdn) repositories.
 
 ### Requirements
 
@@ -44,7 +44,7 @@ All members should:
 
 Owners and Members at the Organization level are [granted permissions across all repositories](https://help.github.com/articles/permission-levels-for-an-organization/).
 
-There should be three to five owners. With less than three, there is a high risk that owner-level actions will be delayed. With more than five, there is higher risk that there will be Owners that never need their increased access, and don't take the role seriously.
+There should be three to five owners. With less than three, there is a high risk that owner-level actions will be delayed. With more than five, there is high risk that there will be Owners that never need their increased access, and don't take the role seriously.
 
 ### Requirements
 Organization Owners and Members have wide permissions to manage users, teams, and repositories, and to see details about the organization. Because of this we require that Organization Owners and Members are:
@@ -70,7 +70,7 @@ Members should:
 
 In addition, Owners should:
 
-* Add and Remove organization owners and members as needed
+* Add and remove organization owners and members as needed
 * Add repositories (as fresh projects or as transfers) as needed
 
 ## Teams
