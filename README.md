@@ -56,6 +56,7 @@ or the repo you want to collaborate with. Either is OK.
 To become a collaborator, you are required to:
 
 * Agree to abide by our [Code of conduct](CODE_OF_CONDUCT.md).
+* Agree to Mozilla's [Commit Access Requirements](https://www.mozilla.org/en-US/about/governance/policies/commit/requirements/).
 * Set up [Two factor authentication](https://github.com/blog/1614-two-factor-authentication) on your GitHub account.
 
 Once you have filed your issue, someone from our team will review it, and give you the necessary privileges provided our requirements are satisfied.
