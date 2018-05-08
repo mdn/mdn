@@ -8,7 +8,7 @@
   "participate": {
     "home": "https://developer.mozilla.org/",
     "docs": "https://developer.mozilla.org/PATH/TO/ARTICLE/ON/MDN/THIS/GOES/WITH",
-    "mailing-list": "https://www.mozilla.org/about/forums/#dev-mdc",
+    "mailing-list": "https://discourse.mozilla.org/c/mdn",
     "irc": "irc://irc.mozilla.org/mdn"
   },
   "keywords": [
