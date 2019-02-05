@@ -99,15 +99,44 @@ least resistance. This post from a member of the Flow team is a couple
 of years old but still seems persuasive to me:
 https://discuss.reactjs.org/t/if-typescript-is-so-great-how-come-all-notable-reactjs-projects-use-babel/4887
 
-If we had lot of contributors using IDEs, then it might be that
-TypeScript's better IDE integration would make it the better choice.
+The Mozilla devtools team uses Flow with their React code in multiple repos.
+The addons.mozilla.org site 
+and the testpilot.mozilla.com site (before it was EOL'ed) use Flow with React. I've
+only been able to find two Mozilla projects that are using React and TypeScript:
+https://github.com/mozilla/voice-web and
+https://github.com/mozilla/addons-code-manager.
+
+On Slack, devtools developers told me:
+
+- "I think both are great"
+- "TS has more community support"
+- "Flow probably optimizes more for correctness and dealing with Facebook-scale codebases"
+- "TypeScript seems more future-proof than Flow"
+- "TypeScript definitely has the community mindshare"
+- "Flow has been more open with their roadmap recently"
+- "The profiler team has been happy and productive with Flow. I feel that we'd be happy and productive with TypeScript too."
+
+None of these develpers were unhappy with their current use of Flow, and none had compelling reasons
+for choosing either one or the other.
 
 Flow and TypeScript have evolved rapidly over the last two years, and
 they seem to be in real competition for developer mindshare. A year
 ago, it seemed like Flow had the momentum, and today it feels to me
-like TypeScript has the momentum.
+like TypeScript has the momentum and that this is tied to its excellent
+integration with vscode, which has become a very popular editor.
 
-I believe, nevertheless, that Flow is the right choice for us, for
-now. If we turn out to have chosen wrong, we my need to switch to
-TypeScript in the future. I expect, however, that if that becomes
-necessary, there will be tools that automate any required code changes.
+Nevertheless I think that Flow is the right choice for us, for now because:
+
+- Half the MDN frontend team already has experience with Flow, but no one on the team has experience with TypeScript
+- More Mozilla projects use Flow than use TypeScript. The projects using TypeScript seem to be smaller and newer
+- Flow is more like a linter that checks types and strips type annotations leaving standard JavaScript.
+  TypeScript is more like a compiler for a new language. If we were to choose TypeScript we'd also
+  have to decide which of its non-standard language extensions we will use and which we will not allow.
+- Fundamentally, it seems wrong to me for Mozilla (the spiritual home of JavaScript) to be starting projects 
+  using a language that includes non-standard (and not on a standards track) extensions to JavaScript. As
+  Brendan Eich says "Always bet on JavaScript".
+
+If we turn out to have bet wrong, we can switch to TypeScript in the future. The syntax for
+simple type annotations is almost identical in the two, so the conversion should not be
+terribly difficult. And there are tools, such as https://github.com/bcherny/flow-to-typescript, to help 
+automate it.
