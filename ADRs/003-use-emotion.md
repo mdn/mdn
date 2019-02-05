@@ -64,7 +64,7 @@ efficiency of stylesheets.
 
 This is exactly what the Aphrodite library does. Aphrodite was created
 at and open-sourced by Khan Academy. It is still used at KA, but is
-not (as far as I know) being actively anymore developed. It is one of
+not (as far as I know) being actively developed anymore. It is one of
 the older libraries and is slower and with fewer features than the
 leading libraries.
 
