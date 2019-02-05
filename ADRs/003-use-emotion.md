@@ -12,7 +12,7 @@
 ### Decision
 
 We will use Emotion as our CSS-in-JS solution for React frontend
-development. (This does not mean we will not also use regular CSS
+development. (This does not mean we will not also use regular SCSS/CSS
 stylesheets as well.)
 
 ### Context
@@ -30,7 +30,7 @@ settle on one.
 
 ### Consequences
 
-While we will probably still use standard CSS stylesheets to define
+While we will probably still use standard CSS stylesheets (via SCSS) to define
 global and site-wide styles and themes, we will use a new system for
 expressing styles (especially layouts) that are specific to individual
 React components.
@@ -57,14 +57,15 @@ HTML elements, which is quite inefficient.
 Instead of setting JS-defined styles on the `style` property of
 elements, what we want instead is a library that will take a
 JavaScript object representing a set of CSS styles, convert that to a
-CSS class definition in a stylesheet and then in return give us the name
+CSS class definition in a stylesheet and then return us the name
 of the class so we can set it on the `className` property of an
-element. This gives us the convenience of scoped styles in JS with the
-efficiency of stylesheets.
+element. 
 
-This is exactly what the Aphrodite library does. Aphrodite was created
+This is exactly what the Aphrodite library does, combining the
+convenience of scoped styles in JS with the efficiency of stylesheets.
+Aphrodite was created
 at and open-sourced by Khan Academy. It is still used at KA, but is
-not (as far as I know) being actively developed anymore. It is one of
+not being actively developed anymore. It is one of
 the older libraries and is slower and with fewer features than the
 leading libraries.
 
@@ -114,7 +115,9 @@ Jest plugin, for example, that improves snapshot testing for React
 components that use Emotion.
 
 Emotion appears to be one of the top 3 libraries in terms of
-popularity and performance. I'm picking it because of its flexiblity,
+popularity and performance. Although Styled Components currently has
+more weekly downloads, Emotion is growing faster and is today's trending 
+library. I'm picking it because of its flexiblity,
 however: it provides a number of different ways to do CSS-in-JS, so we
 can experiment and find the ones that work the best for our code.
 
