@@ -2,8 +2,8 @@
 
 |Status       | proposed    |
 |-------------|-------------|
-|**Proposed** | 2018-02-01
-|**Accepted** | (the date the proposal was accepted/rejected)
+|**Proposed** | 2019-02-01
+|**Accepted** | 2019-02-05
 |**Driver**   | David Flanagan
 |**Approver** | John Whitlock
 |**Consulted**| Schalk Neethling
