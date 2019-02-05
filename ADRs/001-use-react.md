@@ -13,11 +13,13 @@
 
 We will use the React framework and related technologies when
 developing significant new frontend features for the MDN website.
+We may also convert existing features to React as time and
+opportunity allows, but this ADR does not mandate that.
 
 ### Context
 
-The Kuma frontend is currenly implemented using jQuery and jQueryUI,
-but no modern frontend framework.  As a result our UX (the menus in
+The Kuma frontend is currenly implemented using jQuery and, to a lesser extent, jQueryUI,
+but without a modern frontend framework.  As a result our UX (the menus in
 the navigation header, for example) feels dated. The development team
 feels that our development velocity is hampered by lack of a
 framework. Furthermore, we believe that our ability to collaborate
@@ -67,6 +69,20 @@ did, in fact, come out on top. Points in favor of React:
 
 A consultant John and I spoke with recently told us that all of his
 corporate clients in 2018 (except MDN) were using React.
+
+Mozilla maintains a number of React-based websites, including
+
+- addons.mozilla.org
+- testpilot.firefox.com
+- donate.mozilla.org
+- hubs.mozilla.com
+- data.firefox.com
+- learning.mozilla.org
+- changecopyright.org
+- foundation.mozilla.org
+- webmaker.org
+
+I was not able to find any Mozilla websites that use Angular, Vue or Polymer.
 
 #### Angular
 
