@@ -37,6 +37,14 @@ that use it. During the transition to React there is a risk that page
 performance will decrease if we are not careful. A page that depends
 on both jQueryUI and on React, for example, will be slower to load
 than a page that depends on only one of those two libraries.
+As we transition to React, we will need to carefully measure the
+performance impact before we ship anything to users.
+
+React supports server-side rendering which can (but does not always) 
+help with performance, and will be necessary if we want to continue
+to support logged-out users who have JavaScript disabled. Server
+side rendering is well supported by React and its ecosystem, but 
+doing it will add complexity on the backend and in the build pipeline.
 
 ### Alternatives Considered
 
