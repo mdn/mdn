@@ -57,7 +57,7 @@ HTML elements, which is quite inefficient.
 Instead of setting JS-defined styles on the `style` property of
 elements, what we want instead is a library that will take a
 JavaScript object representing a set of CSS styles, convert that to a
-CSS class definition in a stylesheet and then give return us the name
+CSS class definition in a stylesheet and then in return give us the name
 of the class so we can set it on the `className` property of an
 element. This gives us the convenience of scoped styles in JS with the
 efficiency of stylesheets.
