@@ -97,8 +97,8 @@ I was not able to find any Mozilla websites that use Angular, Vue or Polymer.
 Angular is a template based framework, from Google, with a bias toward
 TypeScript instead of JavaScript. It is less popular than React and I
 found the use of templates unappealing. The Angular (version 2 and
-later) framework is completely different than the AngularJS (version
-1) framework, and it appears that the Angular community is still
+later) framework is completely different than the AngularJS (version 1)
+framework, and it appears that the Angular community is still
 fractured because of that break in compatibility.
 
 #### Vue
