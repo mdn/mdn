@@ -80,15 +80,25 @@ corporate clients in 2018 (except MDN) were using React.
 
 Mozilla maintains a number of React-based websites, including
 
-- addons.mozilla.org
-- testpilot.firefox.com
-- donate.mozilla.org
-- hubs.mozilla.com
-- data.firefox.com
-- learning.mozilla.org
-- changecopyright.org
-- foundation.mozilla.org
-- webmaker.org
+- [addons.mozilla.org](https://addons.mozilla.org/)
+  ([mozilla/addons-frontend](https://github.com/mozilla/addons-frontend/))
+- [testpilot.firefox.com](https://testpilot.firefox.com/)
+  ([mozilla/testpilot master](https://github.com/mozilla/testpilot/tree/master),
+  before [end-of-life](https://github.com/mozilla/testpilot/tree/eol))
+- [donate.mozilla.org](https://donate.mozilla.org)
+  ([mozilla/donate.mozilla.org](https://github.com/mozilla/donate.mozilla.org))
+- [hubs.mozilla.com](https://hubs.mozilla.com/)
+  ([mozilla/hubs](https://github.com/mozilla/hubs))
+- [data.firefox.com](https://data.firefox.com/)
+  ([mozilla/ensemble](https://github.com/mozilla/ensemble))
+- [learning.mozilla.org](https://learning.mozilla.org)
+  ([mozilla/learning.mozilla.org](https://github.com/mozilla/learning.mozilla.org))
+- [changecopyright.org](https://changecopyright.org)
+  ([mozilla/copyright](https://github.com/mozilla/copyright))
+- [foundation.mozilla.org](https://foundation.mozilla.org)
+  ([mozilla/foundation.mozilla.org](https://github.com/mozilla/foundation.mozilla.org))
+- [webmaker.org](https://webmaker.org)
+  ([mozilla/webmaker.org](https://github.com/mozilla/webmaker.org))
 
 I was not able to find any Mozilla websites that use Angular, Vue or Polymer.
 
