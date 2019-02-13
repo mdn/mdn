@@ -1,13 +1,14 @@
 ## Use React for the MDN Frontend
 
-|Status       | proposed    |
-|-------------|-------------|
-|**Proposed** | 2019-02-01
-|**Accepted** | 2019-02-05
-|**Driver**   | David Flanagan
-|**Approver** | John Whitlock
-|**Consulted**| Schalk Neethling
-|**Informed** | MDN core team and contributors
+|Status        | proposed    |
+|--------------|-------------|
+|**Proposed**  | 2019-02-13
+|**Accepted**  | 
+|**Supersedes**| ADR 001
+|**Driver**    | David Flanagan
+|**Approver**  | John Whitlock
+|**Consulted** | Schalk Neethling, Justin Fagnani
+|**Informed**  | MDN core team and contributors
 
 ### Decision
 
@@ -18,13 +19,18 @@ opportunity allows, but this ADR does not mandate that.
 
 ### Context
 
-The Kuma frontend is currenly implemented using jQuery and, to a lesser extent, jQueryUI,
-but without a modern frontend framework.  As a result our UX (the menus in
-the navigation header, for example) feels dated. The development team
-feels that our development velocity is hampered by lack of a
-framework. Furthermore, we believe that our ability to collaborate
-with contractors and with open-source contributors would be enhanced
-if we were using a modern framework with a large developer community.
+The Kuma frontend is currently implemented using jQuery and, to a
+lesser extent, jQueryUI, but without a modern frontend framework.  As
+a result our UX (the menus in the navigation header, for example)
+feels dated. The development team feels that our development velocity
+is hampered by lack of a framework. Furthermore, we believe that our
+ability to collaborate with contractors and with open-source
+contributors would be enhanced if we were using a modern framework
+with a large developer community.
+
+This ADR supersedes ADR-001. It arrives at the same decision, but
+corrects inaccurate information about Web Components in the
+Alternatives Considered section below.
 
 ### Consequences
 
@@ -40,11 +46,11 @@ than a page that depends on only one of those two libraries.
 As we transition to React, we will need to carefully measure the
 performance impact before we ship anything to users.
 
-React supports server-side rendering which can (but does not always) 
-help with performance, and will be necessary if we want to continue
-to support logged-out users who have JavaScript disabled. Server
-side rendering is well supported by React and its ecosystem, but 
-doing it will add complexity on the backend and in the build pipeline.
+React supports server-side rendering which can (but does not always)
+help with performance, and will be necessary if we want to continue to
+support logged-out users who have JavaScript disabled. Server side
+rendering is well supported by React and its ecosystem, but doing it
+will add complexity on the backend and in the build pipeline.
 
 ### Alternatives Considered
 
@@ -102,6 +108,23 @@ Mozilla maintains a number of React-based websites, including
 
 I was not able to find any Mozilla websites that use Angular, Vue or Polymer.
 
+#### Web Components
+
+"Web Components" is the collective name for a set of technologies that
+facilitate the creation of reusable UI components. Web Components are
+based on web standards, and in that sense they seem like the best
+choice for Mozilla.
+
+On the other hand, browser support is currently incomplete and
+polyfills are still required. Also, Web Components do not yet have the
+tools, ecosystem, or developer community that React has.
+
+If we didn't have such ambitous goals for 2019 and weren't expecting
+to work with contractors on those goals, I would want to seriously
+consider using Web Components because they seem like the best solution
+for the open web. But for pragmatic reasons related 2019 goals and
+staffing, they do not seem like the right choice for us.
+
 #### Angular
 
 Angular is a template based framework, from Google, with a bias toward
@@ -118,19 +141,3 @@ popular that Angular. It does not appear to have major corporate backing the
 way that React and Angular do. I did not investigate this framework
 very deeply because none of its features seemed compelling enough to
 make us pick it over React.
-
-#### Web Components/Polymer
-
-Web components will eventually be the standard component system for
-the web, and in that sense they seem like the best choice for
-Mozilla. But they are not yet well supported by browsers other than
-Chrome, and so we would have to adopt the Polymer framework.
-
-If we didn't have such ambitous goals for 2019 and weren't expecting
-to work with contractors on those goals, I would want to seriously
-consider using Web Components because they seem like the best solution
-for the open web. But the lack of tools, ecosystem, and developer
-community makes this a non-starter for now.
-
-In the future maybe we'll be able to use Web Components for small
-components, and tie them together into larger components with React.

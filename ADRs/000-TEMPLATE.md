@@ -3,13 +3,15 @@
 
 
 |Status       | proposed <!--becomes accepted, rejected or superseded later-->|
-|-------------|---------------------------------------------------------------|
-|**Proposed** | (Put today's date here)
-|**Accepted** | (the date the proposal was accepted/rejected)
-|**Driver**   | (your name)
-|**Approver** | (who will make the decision and merge the PR)
-|**Consulted**| (who you worked with on this decision)
-|**Informed** | (who should be informed if the proposal is accepted)
+|-----------------|-----------------------------------------------------------|
+|**Proposed**     | (Put today's date here)
+|**Accepted**     | (the date the proposal was accepted/rejected)
+|**Supersedes**   | (delete if not needed)
+|**Superseded by**| (delete if not needed)
+|**Driver**       | (your name)
+|**Approver**     | (who will make the decision and merge the PR)
+|**Consulted**    | (who you worked with on this decision)
+|**Informed**     | (who should be informed if the proposal is accepted)
 
 ### Decision
 
