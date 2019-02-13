@@ -40,10 +40,10 @@ than a page that depends on only one of those two libraries.
 As we transition to React, we will need to carefully measure the
 performance impact before we ship anything to users.
 
-React supports server-side rendering which can (but does not always) 
+React supports server-side rendering which can (but does not always)
 help with performance, and will be necessary if we want to continue
 to support logged-out users who have JavaScript disabled. Server
-side rendering is well supported by React and its ecosystem, but 
+side rendering is well supported by React and its ecosystem, but
 doing it will add complexity on the backend and in the build pipeline.
 
 ### Alternatives Considered
@@ -119,14 +119,19 @@ way that React and Angular do. I did not investigate this framework
 very deeply because none of its features seemed compelling enough to
 make us pick it over React.
 
-#### Web Components/Polymer
+#### Web Components
 
-Web components will eventually be the standard component system for
-the web, and in that sense they seem like the best choice for
-Mozilla. But they are not yet well supported by browsers other than
-Chrome, and so we would have to adopt the Polymer framework.
+Web components are the standard component system for the web,
+and in that sense they seem like the best choice for Mozilla.
 
-If we didn't have such ambitous goals for 2019 and weren't expecting
+Firefox is [migrating from XBL to WebComponents](https://mozilla.github.io/firefox-browser-architecture/text/0007-xbl-design-review-packet.html).
+
+##### Polymer
+
+Polymer versions before 3.x aren't well supported by browsers
+other than Chrome.
+
+If we didn't have such ambitious goals for 2019 and weren't expecting
 to work with contractors on those goals, I would want to seriously
 consider using Web Components because they seem like the best solution
 for the open web. But the lack of tools, ecosystem, and developer
