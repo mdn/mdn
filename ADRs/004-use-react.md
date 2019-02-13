@@ -112,12 +112,13 @@ I was not able to find any Mozilla websites that use Angular, Vue or Polymer.
 
 "Web Components" is the collective name for a set of technologies that
 facilitate the creation of reusable UI components. Web Components are
-based on web standards, and in that sense they seem like the best
-choice for Mozilla.
+web standards, and in that sense they seem like the best choice for
+Mozilla.
 
-On the other hand, browser support is currently incomplete and
-polyfills are still required. Also, Web Components do not yet have the
-tools, ecosystem, or developer community that React has.
+On the other hand, browser support is not quite complete yet and
+polyfills are still required for older browsers. Also, Web Components
+do not yet have the large ecosystem and developer community that React
+has.
 
 If we didn't have such ambitous goals for 2019 and weren't expecting
 to work with contractors on those goals, I would want to seriously
