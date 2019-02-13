@@ -128,8 +128,7 @@ Firefox is [migrating from XBL to WebComponents](https://mozilla.github.io/firef
 
 ##### Polymer
 
-Polymer versions before 3.x aren't well supported by browsers
-other than Chrome.
+Polymer 1.x isn't well supported by browsers other than Chrome.
 
 If we didn't have such ambitious goals for 2019 and weren't expecting
 to work with contractors on those goals, I would want to seriously
