@@ -106,8 +106,6 @@ Mozilla maintains a number of React-based websites, including
 - [webmaker.org](https://webmaker.org)
   ([mozilla/webmaker.org](https://github.com/mozilla/webmaker.org))
 
-I was not able to find any Mozilla websites that use Angular, Vue or Polymer.
-
 #### Web Components
 
 "Web Components" is the collective name for a set of technologies that
@@ -120,11 +118,11 @@ polyfills are still required for older browsers. Also, Web Components
 do not yet have the large ecosystem and developer community that React
 has.
 
-If we didn't have such ambitous goals for 2019 and weren't expecting
+If we didn't have such ambitious goals for 2019 and weren't expecting
 to work with contractors on those goals, I would want to seriously
 consider using Web Components because they seem like the best solution
-for the open web. But for pragmatic reasons related 2019 goals and
-staffing, they do not seem like the right choice for us.
+for the open web. For pragmatic reasons related 2019 goals and
+staffing, however, they do not seem like the right choice for us.
 
 #### Angular
 
@@ -135,6 +133,8 @@ later) framework is completely different than the AngularJS (version 1)
 framework, and it appears that the Angular community is still
 fractured because of that break in compatibility.
 
+I was not able to find any Mozilla websites that use Angular.
+
 #### Vue
 
 Vue is another template-based framework that seems to be slightly more
@@ -142,3 +142,5 @@ popular that Angular. It does not appear to have major corporate backing the
 way that React and Angular do. I did not investigate this framework
 very deeply because none of its features seemed compelling enough to
 make us pick it over React.
+
+I was not able to find any Mozilla websites that use Vue.
