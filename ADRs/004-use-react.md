@@ -118,11 +118,11 @@ polyfills are still required for older browsers. Also, Web Components
 do not yet have the large ecosystem and developer community that React
 has.
 
-If we didn't have such ambitious goals for 2019 and weren't expecting
-to work with contractors on those goals, I would want to seriously
-consider using Web Components because they seem like the best solution
-for the open web. For pragmatic reasons related 2019 goals and
-staffing, however, they do not seem like the right choice for us.
+Web Components seem like the best solution for the open web. But we
+have very ambitious goals for 2019 and are expecting to need to work
+at high speed and to hire contractors to meet those goals. Because of
+these pragmatic issues of development velocity and staffing, I do not
+believe that Web Components are the right choice for us.
 
 #### Angular
 
