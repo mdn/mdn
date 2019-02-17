@@ -3,7 +3,7 @@
 |Status        | proposed    |
 |--------------|-------------|
 |**Proposed**  | 2019-02-13
-|**Accepted**  | 
+|**Accepted**  | 2019-02-17
 |**Supersedes**| ADR 001
 |**Driver**    | David Flanagan
 |**Approver**  | John Whitlock
