@@ -9,7 +9,7 @@
 |**Supersedes**| n/a
 |**Driver**       | Peter Bengtsson
 |**Approver**     | (who will make the decision and merge the PR)
-|**Consulted** | Ryan Johnson
+|**Consulted** | Ryan Johnson, Anthony Maton (contributor)
 |**Informed**  | MDN core team and contributors
 
 ### Decision
