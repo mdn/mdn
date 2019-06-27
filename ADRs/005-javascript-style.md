@@ -1,4 +1,4 @@
-Javascript code formatting with Prettier across MDN
+JavaScript code formatting with Prettier across MDN repositories
 
 
 |Status       | proposed <!--becomes accepted, rejected or superseded later-->|
