@@ -12,7 +12,7 @@ JavaScript code formatting with Prettier across MDN repositories
 
 ### Decision
 
-Use Prettier for JavaScript code formatting across all MDN codebases.
+Use Prettier for JavaScript code formatting across all MDN repositories.
 
 ### Context
 
@@ -20,36 +20,16 @@ We have a number of repositories across the MDN organization that uses JavaScrip
 contributions, shorten pull requests review time, and ease transition between projects,
 it is suggested that we adopt Prettier across all projects inside the MDN org for JavaScript code formatting.
 
-To ensure consistency, it is also suggested that we utilise Husky[] and enable a pre-commit hook to auto format all JavaScript.
-
 ### Configuration
 
-Use Prettier defualts:
-
-```
-// .prettierrc
-{}
-```
-
-package.json config
-
-```
-// package.json
-"scripts": {
-  "format": "prettier --write \"src/**/*.{js,jsx}\"",
-  "format:check": "prettier --list-different \"src/**/*.{js,jsx}\"",
-},
-"husky": {
-  "hooks": {
-    "pre-commit": "npm format"
-  }
-}
-```
+Configuration will be based on Prettier's default configuration at the time this ADR is excepted. Currently the latest version of Prettier is 1.18.2
 
 ### Consequences
 
-We have standard JavaScript code formatting across projects, and tools that enforce these standards. 
+We have standard JavaScript code formatting across projects, and tools that enforce these standards. Code formatting is no longer manually maintained or reviewed. CI is used to verify strict adherence to this rather than human intervention. Failure to format code correctly, with Prettier, in pull requests should break and put the onus on the contributor to fix linting before commencing human code review.
 
 ### Alternatives Considered
 
-This is very norrowly scoped and suggests a tool that is standard across the industry, and already used on projects such as Kuma, so other options have not been explored.
+While alternative tooling was not explored, alternative Prettier configurations will be acceptable if there are solid reasons to do so. For example, kuma already uses 4-spaces indentation and should be allowed to continue doing so in order to avoid crazy-big change sets that ruin too much of the git history.
+
+With that said, this rule is only allowed for existing projects with a significant amount of JavaScript code.
