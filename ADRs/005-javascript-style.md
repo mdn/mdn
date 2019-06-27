@@ -22,7 +22,7 @@ it is suggested that we adopt Prettier across all projects inside the MDN org fo
 
 ### Configuration
 
-Configuration will be based on Prettier's default configuration at the time this ADR is accepted. Currently the latest version of Prettier is 1.18.2
+Our configuration is the default configuration in Prettier. I.e. `{}`. 
 
 ### Consequences
 
