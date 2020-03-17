@@ -17,7 +17,7 @@ In addition, because MDN would of course have had an extensive history as a Wiki
 
 ### Decision
 
-We prepose the following **initial** priniciples for the file organization/content of
+We propose the following **initial** principles for the file organization/content of
 MDN documents within the Yari repo:
 
 1. The documents will be stored hierarchically under a common root folder called **_content_**.
