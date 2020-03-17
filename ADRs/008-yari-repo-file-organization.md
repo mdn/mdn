@@ -32,11 +32,11 @@ MDN documents within the Yari repo:
     title: Microdata
     slug: Web/HTML/Microdata
     ```
-1. Each non-English document's metadata will comprise, at minimum, 3 pieces of information: the `slug`, the `title`, and the `translationOf` (the slug of the _English_ document from which this translation was created). The `translationOf` key provides the means to link a set of documents as translations of each other, and is similar to Hugo's `translationKey`.
+1. Each non-English document's metadata will comprise, at minimum, 3 pieces of information: the `slug`, the `title`, and the `translation_of` (the slug of the _English_ document from which this translation was created). The `translation_of` key provides the means to link a set of documents as translations of each other, and is similar to Hugo's `translationKey`.
     ```yaml
     title: Microdonnées
     slug: Web/HTML/Microdonnées
-    translationOf: Web/HTML/Microdata
+    translation_of: Web/HTML/Microdata
     ```
 1. The contents of the **_wikihistory.json_** file will comprise, for now, 2 pieces of information: `modified` (when the document was last modified in the Wiki) and `contributors` (a list of all of the MDN account usernames that contributed to the document prior to the move to GitHub).
 1. Of course, sometimes documents are moved from one slug to another. Within MDN today, many of the Wiki documents are simply content-based redirects reflecting a move from one slug to another. These existing content-based redirects, as well as any future document movements, will **not** be represented by the 3 files described above. Instead, each of these redirects, a _from_ URL followed by a _to_ URL, are listed, one per line, in a separate _**_redirects.txt**_ file, one file for each locale. For example, all of the English redirects would be listed within _**content/en-us/_redirects.txt**_ like this:
