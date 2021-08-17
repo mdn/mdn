@@ -4,4 +4,4 @@ This provides owner guidelines for the MDN organization. Owners are those that w
 
 ## Contents
 
-- [Requests](/requests)
+- [Requests](requests)
