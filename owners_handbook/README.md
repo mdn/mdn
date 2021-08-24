@@ -10,7 +10,7 @@ This provides owner guidelines for the MDN organization. Owners are those that w
 
 ## Platform updates
 
-Or new features. These will usually come in the form of issues raised on other repositories, or issues raised within the dedicated project itself. New issues will be added to the [dedicated project here on mdn/yari](https://github.com/mdn/yari/projects/11) with the `needs triage` label. They should be added to the 'To triage' column.
+Or new features. These will usually come in the form of issues raised on other repositories, or issues raised within the dedicated project itself. New issues will be added to the [dedicated project here on mdn/yari](https://github.com/mdn/yari/projects/11) with the `needs: triage` label. They should be added to the 'To triage' column.
 
 Time is set aside every fortnight (vaguely a sprint) to work on platform improvements. They can be anything from new requests of features, to updates that would be helpful, to urgent issues that affect our users.
 
@@ -19,16 +19,16 @@ Issues should be read and discussed. If there are any irrelevant issues, they sh
 An issue should be reviewed with the following criteria:
 
 - Priority:
-   - p0 Urgent: Something is broken and needs to be fixed immediately.
-   - p1 High priority: This is needed, but not something that's broken and affecting our users.
-   - p2 Medium priority: It would be great to get this done if there aren't any other high priority tasks, chances are this issue will escalate to high priority soon enough.
-   - p3 Low priority: This is a nice to have. Small chance of it escalating, but something we should consider.
+   - `p0` Urgent: Something is broken and needs to be fixed immediately.
+   - `p1` High priority: This is needed, but not something that's broken and affecting our users.
+   - `p2` Medium priority: It would be great to get this done if there aren't any other high priority tasks, chances are this issue will escalate to high priority soon enough.
+   - `p3` Low priority: This is a nice to have. Small chance of it escalating, but something we should consider.
 
 - Time:
-   - t-30 Less than 30 mins: A quick fix, a ten minute task, however no task is just ten minutes but the developer can change, test and pr within less than an hour.
-   - t-180 Less that 3 hours: This change will take about half a day for a developer to modify and test and raise a pr.
-   - t-2day This task will keep an engineer involved for a day or two. Or more than one input is needed, such as a fix from front end as well as back end.
-   - t+2day This task will take a few days or more to complete. With these type of issues there are probably sub-issues which should be raised, or more definition needed. Multiple engineers are probably needed (such as front end work and back end work).
+   - `time: -30mins` Less than 30 mins: A quick fix, a ten minute task, however no task is just ten minutes but the developer can change, test and pr within less than an hour.
+   - `time: -3hours` Less that 3 hours: This change will take about half a day for a developer to modify and test and raise a pr.
+   - `time: -2days` This task will keep an engineer involved for a day or two. Or more than one input is needed, such as a fix from front end as well as back end.
+   - `time: multi day` This task will take a few days or more to complete. With these type of issues there are probably sub-issues which should be raised, or more definition needed. Multiple engineers are probably needed (such as front end work and back end work).
 
 This will give a good idea of what issues need and can be worked on. Issues that can be completed within the fortnight should be assigned and moved to the 'To do' column.
 
