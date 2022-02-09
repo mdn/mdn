@@ -26,7 +26,7 @@ Name | Description
 `README.md` | A GitHub-flavored Markdown file describing the project. *Add a link to info about the contents, if we have that.*
 `contribute.json` | A text file containing a JSON object which provides details about the project. This file matches the [contribute.json schema](https://www.contributejson.org/) defined by Mozilla. Start by copying the file [`contribute.json.dist`](https://github.com/mdn/mdn/blob/master/contribute.dist.json), then make changes as needed to describe your project.
 
-Some recommendations for your `contribute.dist` file:
+Some recommendations for your `contribute.json` file:
 
 * Under `"participate"`, you should provide URLs that will help potential contributors or users of the project find assistance.
     * `"home"` should always be a link to the [MDN home page](https://developer.mozilla.org/).
