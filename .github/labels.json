@@ -1,0 +1,92 @@
+[
+  {
+    "name": "p1",
+    "color": "#E80840",
+    "description": "top priority items"
+  },
+  {
+    "name": "p2",
+    "color": "#D84000",
+    "description": "high priority, will be elevated to p1 when there are no p1 items"
+  },
+  {
+    "name": "p3",
+    "color": "#C84080",
+    "description": "important, but not critical to our end users or infra"
+  },
+  {
+    "name": "chore",
+    "color": "#A040F8",
+    "description": "a routine task"
+  },
+  {
+    "name": "a11y",
+    "color": "#B366F9",
+    "description": "accessibility documentation or general user interface issues regarding accessibility"
+  },
+  {
+    "name": "localisation",
+    "color": "#C68CFB",
+    "description": "improved localisation tooling or of interest to localisers"
+  },
+  {
+    "name": "idle",
+    "color": "#CDCDCD",
+    "description": "there has been no activity, either address or close"
+  },
+  {
+    "name": "needs triage",
+    "color": "#858585",
+    "description": "automatically added to new issues, response needed within a week"
+  },
+  {
+    "name": "community",
+    "color": "#066D05",
+    "description": "issues, discussions, and pull requests opened by the community"
+  },
+  {
+    "name": "need info",
+    "color": "#39A038",
+    "description": "the author or a collaborator has requested additional information"
+  },
+  {
+    "name": "help wanted",
+    "color": "#6BB86A",
+    "description": "community contributions welcomed"
+  },
+  {
+    "name": "good first issue",
+    "color": "#9CCF9B",
+    "description": "issues intentionally kept open for first time contributors"
+  },
+  {
+    "name": "bug",
+    "color": "#BA0633",
+    "description": "a ghost in the machine"
+  },
+  {
+    "name": "on hold",
+    "color": "#D36699",
+    "description": "there is currently a dependency that is blocking progress"
+  },
+  {
+    "name": "enhancement",
+    "color": "#135AC0",
+    "description": "new agreed upon features or enhancement to existing content or infra"
+  },
+  {
+    "name": "github_actions",
+    "color": "#1870F0",
+    "description": "automatically added by dependabot for github action updates"
+  },
+  {
+    "name": "dependencies",
+    "color": "#468DF3",
+    "description": "automatically added by dependabot for dependency updates"
+  },
+  {
+    "name": "documentation",
+    "color": "#A3C6F9",
+    "description": "updates or additions to documentation and content"
+  }
+]

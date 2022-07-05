@@ -1,0 +1,40 @@
+name: Nominate a maintainer
+description: Use this template when nominating an individual to become a maintainer of an MDN Web Docs repository.
+title: Nominating a maintainer for [repository-name]
+labels: ["repo maintainer nomination"]
+assignees:
+  - schalkneethling
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to nominate an individual to become a co-maintainer. Please ensure that you have read and understood the responsibilities of [a volunteer maintainer](TBD) before continuing.
+  - type: input
+    attributes:
+      label: Given name or GitHub username
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: GitHub profile link
+      placeholder: https://github.com/<username>
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Why are you nominating this individual?
+      description: Please provide a short description of why you are nominating this individual to become a co-maintainer of the repository.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Supporting evidence
+      description: Evidence to support the nomination. For example links to contributions as well as interactions with the larger community and partners. For example commiter links such as this one, https://github.com/mdn/yari/commits?author=schalkneethling
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Repository URL
+      description: The URL of th repository this individual will be a co-maintainer of.
+    validations:
+      required: true
