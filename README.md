@@ -6,10 +6,9 @@
 
 Welcome to the `mdn` repository! This repository contains issue templates for the following procedures:
 
-- [Proposing new content or features for MDN Web Docs](TODO: Link to relevant page)
-- [New team member request](TODO: Link to relevant page)
-- [Nominate an invited expert](TODO: Link to relevant page)
-- [Nominate an co-maintainer](TODO: Link to relevant page)
+- [Proposing new content or features for MDN Web Docs](https://github.com/mdn/mdn/issues/new/choose)
+- [Nominating an invited expert](https://github.com/mdn/mdn/issues/new/choose)
+- [Nominating a co-maintainer](https://github.com/mdn/mdn/issues/new/choose)
 
 ## Invited experts
 
