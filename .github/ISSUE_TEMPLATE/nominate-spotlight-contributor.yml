@@ -1,14 +1,15 @@
 name: Nominate a spotlight contributor
-description: Use this template when nominating aspotlight contributor.
+description: Use this template to nominate a spotlight contributor.
 title: Nominating [GitHub username] as a spotlight contributor
-labels: ["spotlight-contributor"]
+labels: ['spotlight-contributor']
 assignees:
   - schalkneethling
 body:
   - type: markdown
     attributes:
       value: |
-        Thank you for taking the time to nominate an individual to be features as a [spotlight contributor](https://github.com/mdn/mdn-contributor-spotlight). Thank you for taking the time to nominate an individual to be featured as a spotlight contributor. Please read our [short guide on the prerequisites](https://developer.mozilla.org/en-US/docs/MDN/Community/Users_teams#spotlight-contributor) when nominating a spotlight contributor.
+          Thank you for taking the time to nominate a [spotlight contributor](https://github.com/mdn/mdn-contributor-spotlight).
+          Make sure you read our [list of prerequisites](https://developer.mozilla.org/en-US/docs/MDN/Community/Users_teams#spotlight-contributor) before submitting a nomination.
   - type: input
     attributes:
       label: Given name or GitHub username
@@ -22,13 +23,15 @@ body:
       required: true
   - type: textarea
     attributes:
-      label: Why are you nominating this individual?
-      description: Please provide a short description of why you are nominating this individual to become an spotlight contributor.
+      label: Why are you nominating this person?
+      description: Tell us why you are nominating this person to become a spotlight contributor.
     validations:
       required: true
   - type: textarea
     attributes:
       label: Supporting evidence
-      description: Evidence to support the nomination. For example links to contributions as well as interactions with the larger community. For example a link to a [commit log](https://github.com/mdn/yari/commits?author=schalkneethling) on a repository.
+      description: |
+          Provide evidence to support your nomination such as contributions and interactions with the community.
+          Links to [commit logs](https://github.com/mdn/yari/commits?author=schalkneethling) in a repository are also appropriate.
     validations:
       required: true
