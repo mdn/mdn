@@ -1,0 +1,37 @@
+name: Nominate a spotlight contributor
+description: Use this template to nominate a spotlight contributor.
+title: Nominating [GitHub username] as a spotlight contributor
+labels: ['spotlight-contributor']
+assignees:
+  - schalkneethling
+body:
+  - type: markdown
+    attributes:
+      value: |
+          Thank you for taking the time to nominate a [spotlight contributor](https://github.com/mdn/mdn-contributor-spotlight).
+          Make sure you read our [list of prerequisites](https://developer.mozilla.org/en-US/docs/MDN/Community/Users_teams#spotlight-contributor) before submitting a nomination.
+  - type: input
+    attributes:
+      label: Given name or GitHub username
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: GitHub profile link
+      placeholder: https://github.com/<username>
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Why are you nominating this person?
+      description: Tell us why you are nominating this person to become a spotlight contributor.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Supporting evidence
+      description: |
+          Provide evidence to support your nomination such as contributions and interactions with the community.
+          Links to [commit logs](https://github.com/mdn/yari/commits?author=schalkneethling) in a repository are also appropriate.
+    validations:
+      required: true
