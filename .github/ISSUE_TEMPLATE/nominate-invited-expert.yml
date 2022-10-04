@@ -1,14 +1,15 @@
 name: Nominate an invited expert
-description: Use this template when nominating an individual as an invited expert.
+description: Use this template when nominating an invited expert.
 title: Nominating an invited expert for [technology topic]
-labels: ["invited expert nomination"]
+labels: ['invited-expert-nomination']
 assignees:
   - schalkneethling
 body:
   - type: markdown
     attributes:
       value: |
-        Thank you for taking the time to nominate an individual to become an invited expert. Please ensure that you have read and understood the responsibilities of [an invited expert](https://developer.mozilla.org/en-US/docs/MDN/Community/Users_teams#invited_experts_program) before continuing.
+        Thank you for taking the time to nominate an invited expert.
+        Make sure that you have read and understood the [responsibilities of an invited expert](https://developer.mozilla.org/en-US/docs/MDN/Community/Users_teams#invited_experts_program) before submitting a nomination.
   - type: input
     attributes:
       label: Given name or GitHub username
@@ -22,13 +23,15 @@ body:
       required: true
   - type: textarea
     attributes:
-      label: Why are you nominating this individual?
-      description: Please provide a short description of why you are nominating this individual to become an invited expert.
+      label: Why are you nominating this person?
+      description: Tell us why you are nominating this person to become an invited expert.
     validations:
       required: true
   - type: textarea
     attributes:
       label: Supporting evidence
-      description: Evidence to support the nomination. For example links to contributions as well as interactions with the larger community. For example a link to a [commit log](https://github.com/mdn/yari/commits?author=schalkneethling) on a repository.
+      description: |
+        Provide evidence to support your nomination such as contributions and interactions with the community.
+        Links to [commit logs](https://github.com/mdn/yari/commits?author=schalkneethling) in a repository are also appropriate.
     validations:
       required: true
