@@ -1,5 +1,5 @@
-name: New content or feature suggestions
-description: Use this template when suggestion new content or new features for MDN Web Docs
+name: New content or feature requests
+description: Proposals for new content or features on MDN Web Docs
 title: A short title that begins with a verb
 labels: ["content suggestion", "feature suggestion", "proposed"]
 assignees:
@@ -8,21 +8,15 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thank you for your taking the time to put together this proposal for new content or a new feature on MDN Web Docs. Please note that we have a well defined process for handling these requests. Please read [TODO:](TODO:) for more information.
+        Thank you for taking the time to put together a proposal for new content or a feature on MDN Web Docs.
+        We have a well-defined process for handling these requests.
+        For more information, see our [Community Guidelines](https://developer.mozilla.org/en-US/docs/MDN/Community).
   - type: input
     attributes:
       label: Proposed
       description: Put today's date here.
     validations:
       required: true
-  - type: input
-    attributes:
-      label: Accepted/Rejected
-      description: For internal usage - the date the proposal was accepted/rejected
-  - type: input
-    attributes:
-      label: Accepted/Rejected by
-      description: For internal usage - Team who accepted/rejected the proposal
   - type: input
     attributes:
       label: Proposed by
@@ -44,18 +38,31 @@ body:
   - type: textarea
     attributes:
       label: Context
-      description: Provide all the context needed to understand the proposal and why it is needed. This should be at least a paragraph but can be as long as necessary.
+      description: |
+        Provide all the context needed to understand the proposal and why it is needed.
+        This should be at least a paragraph but can be as long as necessary.
     validations:
       required: true
   - type: textarea
     attributes:
       label: Consequences
-      description: Describe the pros and cons of the proposed decision. Think about the people in the **Informed** line above. How will this decision affect them?
+      description: |
+        Describe the pros and cons of the proposed decision.
+        Think about the people in the **Informed** line above.
+        How will this decision affect them?
     validations:
       required: true
   - type: textarea
     attributes:
-      label: Alternatives Considered
+      label: Alternatives
       description: Describe the research you did and the alternatives you considered before making this proposal.
     validations:
       required: true
+  - type: input
+    attributes:
+      label: Accepted/Rejected
+      description: For internal usage - the date the proposal was accepted/rejected
+  - type: input
+    attributes:
+      label: Accepted/Rejected by
+      description: For internal usage - Team who accepted/rejected the proposal

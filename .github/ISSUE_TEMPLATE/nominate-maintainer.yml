@@ -8,7 +8,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thank you for taking the time to nominate an individual to become a co-maintainer. Please ensure that you have read and understood the responsibilities of [a volunteer maintainer](TBD) before continuing.
+        Thank you for taking the time to nominate an individual to become a co-maintainer.
+        Please ensure that you have read and understood the responsibilities of [a volunteer maintainer](https://developer.mozilla.org/en-US/docs/MDN/Community/Pull_requests) before continuing.
   - type: input
     attributes:
       label: Given name or GitHub username
@@ -20,21 +21,23 @@ body:
       placeholder: https://github.com/<username>
     validations:
       required: true
+  - type: input
+    attributes:
+      label: Repository URL
+      description: The URL of the repository this person will co-maintain.
+    validations:
+      required: true
   - type: textarea
     attributes:
-      label: Why are you nominating this individual?
-      description: Please provide a short description of why you are nominating this individual to become a co-maintainer of the repository.
+      label: Why are you nominating this person?
+      description: Tell us why you are nominating this person to become a co-maintainer of the repository.
     validations:
       required: true
   - type: textarea
     attributes:
       label: Supporting evidence
-      description: Evidence to support the nomination. For example links to contributions as well as interactions with the larger community and partners. For example commiter links such as this one, https://github.com/mdn/yari/commits?author=schalkneethling
-    validations:
-      required: true
-  - type: input
-    attributes:
-      label: Repository URL
-      description: The URL of th repository this individual will be a co-maintainer of.
+      description: |
+        Provide evidence to support your nomination such as contributions and interactions with the community.
+          Links to [commit logs](https://github.com/mdn/yari/commits?author=schalkneethling) in a repository are also appropriate.
     validations:
       required: true

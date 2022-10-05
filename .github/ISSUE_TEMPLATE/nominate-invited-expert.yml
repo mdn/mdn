@@ -1,7 +1,7 @@
 name: Nominate an invited expert
 description: Use this template when nominating an invited expert.
 title: Nominating an invited expert for [technology topic]
-labels: ['invited-expert-nomination']
+labels: ["invited-expert-nomination"]
 assignees:
   - schalkneethling
 body:

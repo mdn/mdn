@@ -1,5 +1,5 @@
 name: New Member Request
-description: Use this template when requesting to become a member of an MDN Web Docs GitHub team
+description: Use this template to request to become a member of an MDN Web Docs GitHub team
 title: Requesting to become a member of the [team-name] team
 labels: ["team membership request"]
 assignees:
@@ -8,7 +8,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thank you for your interest in becoming a member of an MDN Web Docs team. Please ensure that you have read what it means to be [part of a team](TBD) before continuing.
+        Thank you for your interest in becoming a member of an MDN Web Docs team.
+        Please ensure that you have read what it means to be [part of a team](https://developer.mozilla.org/en-US/docs/MDN/Community/Users_teams) before continuing.
   - type: input
     attributes:
       label: Given name or GitHub username
@@ -16,13 +17,13 @@ body:
       required: true
   - type: input
     attributes:
-      label: GitHub profile link
+      label: Your GitHub profile link
       placeholder: https://github.com/<username>
     validations:
       required: true
   - type: textarea
     attributes:
-      label: Links to contributions made to MDN Web Docs on GitHub
+      label: Links to contributions made to MDN Web Docs on GitHub.
       placeholder: For example https://github.com/mdn/yari/commits?author=schalkneethling
     validations:
       required: true
@@ -36,7 +37,7 @@ body:
     id: terms
     attributes:
       label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/mdn/mdn/blob/main/CODE_OF_CONDUCT.md)
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/mdn/mdn/blob/main/CODE_OF_CONDUCT.md).
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
@@ -44,9 +45,9 @@ body:
     id: terms
     attributes:
       label: Commit Access Requirements
-      description: By submitting this issue, you agree to Mozilla’s [Commit Access Requirements](https://www.mozilla.org/en-US/about/governance/policies/commit/requirements/)
+      description: By submitting this issue, you agree to Mozilla's [Commit Access Requirements](https://www.mozilla.org/en-US/about/governance/policies/commit/requirements/).
       options:
-        - label: I agree to follow Mozilla’s Commit Access Requirements
+        - label: I agree to follow Mozilla's Commit Access Requirements
           required: true
   - type: checkboxes
     id: terms
