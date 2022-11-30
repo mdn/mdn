@@ -1,68 +1,40 @@
-name: New content or feature requests
+name: New content or feature suggestion
 description: Proposals for new content or features on MDN Web Docs
-title: A short title that begins with a verb
-labels: ["content suggestion", "feature suggestion", "proposed"]
+title: Enter your proposal here
+labels: ["proposal", "needs triage"]
 assignees:
   - schalkneethling
 body:
   - type: markdown
     attributes:
       value: |
-        Thank you for taking the time to put together a proposal for new content or a feature on MDN Web Docs.
+        Thank you for taking the time to put together a proposal for adding/updating content or a website feature on MDN Web Docs.
         We have a well-defined process for handling these requests.
         For more information, see our [Community Guidelines](https://developer.mozilla.org/en-US/docs/MDN/Community).
-  - type: input
-    attributes:
-      label: Proposed
-      description: Put today's date here.
-    validations:
-      required: true
-  - type: input
-    attributes:
-      label: Proposed by
-      description: A link to your GitHub profile.
-    validations:
-      required: true
-  - type: input
-    attributes:
-      label: Informed
-      description: Who should be informed or could be impacted if the proposal is accepted?
-    validations:
-      required: true
   - type: textarea
     attributes:
       label: Proposal
-      description: Describe the proposal, ideally in a single sentence.
+      description: Please describe the content or feature you are proposing and why it is needed.
     validations:
       required: true
   - type: textarea
+    id: task-list
     attributes:
-      label: Context
+      label: Task list
+      description: List the steps involved to complete this project.
+      value: |
+        - [ ] 
+  - type: textarea
+    attributes:
+      label: Additional information
       description: |
-        Provide all the context needed to understand the proposal and why it is needed.
-        This should be at least a paragraph but can be as long as necessary.
-    validations:
-      required: true
-  - type: textarea
-    attributes:
-      label: Consequences
-      description: |
-        Describe the pros and cons of the proposed decision.
-        Think about the people in the **Informed** line above.
-        How will this decision affect them?
-    validations:
-      required: true
-  - type: textarea
-    attributes:
-      label: Alternatives
-      description: Describe the research you did and the alternatives you considered before making this proposal.
-    validations:
-      required: true
+        Please add any additional information to support this proposal, such as specification links
   - type: input
     attributes:
-      label: Accepted/Rejected
-      description: For internal usage - the date the proposal was accepted/rejected
-  - type: input
+      label: Are you willing to support this work?
+      description: MDN Web Docs is an open source project and welcomes contributions. Please state whether you are willing to help with the proposed work and in what capacity; this can be undertaking the work or supporting with reviews and/or queries.
+  - type: textarea
     attributes:
-      label: Accepted/Rejected by
-      description: For internal usage - Team who accepted/rejected the proposal
+      label: Depends on
+      description: |
+        Does this work depend on any other work to be complete before it can begin? (Please provide links to existing issues if possible).
