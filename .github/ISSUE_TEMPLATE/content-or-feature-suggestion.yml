@@ -1,7 +1,7 @@
 name: New content or feature suggestion
 description: Proposals for new content or features on MDN Web Docs
 title: Enter your proposal here
-labels: ["suggestion", "proposed", "needs triage"]
+labels: ["proposal", "needs triage"]
 assignees:
   - schalkneethling
 body:
