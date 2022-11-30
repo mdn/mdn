@@ -28,8 +28,13 @@ body:
     attributes:
       label: Additional information
       description: |
-        Please add any additional information to support this proposal, such as specification links.
+        Please add any additional information to support this proposal, such as specification links
   - type: input
     attributes:
       label: Are you willing to support this work?
       description: MDN Web Docs is an open source project and welcomes contributions. Please state whether you are willing to help with the proposed work and in what capacity; this can be undertaking the work or supporting with reviews and/or queries.
+  - type: textarea
+    attributes:
+      label: Depends on
+      description: |
+        Does this work depend on any other work to be complete before it can begin? (Please provide links to existing issues if possible).
