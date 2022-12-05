@@ -2,7 +2,7 @@
 
 For more details on our spotlight contributor program, see our [community documentation](https://developer.mozilla.org/en-US/docs/MDN/Community/Users_teams#spotlight_contributor).
 
-## Spotlight Contributors
+## Archive of our spotlight contributors
 
 ### Carolyn Wu
 
