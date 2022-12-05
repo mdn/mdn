@@ -11,7 +11,7 @@ Please submit information for the person you are nominating in the sections list
 
 Tell us why you are nominating this person to become a spotlight contributor.
 
-## Supporting evidence (required)
+## Supporting evidence for nominating this person (required)
 
 Provide evidence to support your nomination such as contributions and interactions with the community.
 Links to [commit logs](https://github.com/mdn/yari/commits?author=schalkneethling) in a repository are also appropriate.
