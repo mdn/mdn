@@ -28,7 +28,7 @@ body:
     attributes:
       label: Additional information
       description: |
-        Please add any additional information to support this proposal, such as specification links
+        Please add any additional information to support this proposal (screenshots, specification links, browser implementation bugs etc...)
   - type: input
     attributes:
       label: Are you willing to support this work?
