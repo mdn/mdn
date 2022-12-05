@@ -1,4 +1,4 @@
-# MDN Web Docs Spotlight Contributors
+# MDN Web Docs spotlight contributors
 
 For more details on our spotlight contributor program, see our [community documentation](https://developer.mozilla.org/en-US/docs/MDN/Community/Users_teams#spotlight_contributor).
 
