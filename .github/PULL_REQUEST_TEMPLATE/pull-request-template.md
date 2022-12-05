@@ -7,7 +7,7 @@ Please submit information for the person you are nominating in the sections list
 
 ## GitHub profile link (required)
 
-## Why are you nominating this person? (required)
+## Reason for nominating this person (required)
 
 Tell us why you are nominating this person to become a spotlight contributor.
 
