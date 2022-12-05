@@ -5,6 +5,7 @@ For more details on our spotlight contributor program, see our [community docume
 ## Archive of our spotlight contributors
 
 ### Carolyn Wu
+August, 2022
 
 - [On GitHub](https://github.com/cw118)
 - [On MDN Web Docs](https://developer.mozilla.org/en-US/community/spotlight/cw118)
