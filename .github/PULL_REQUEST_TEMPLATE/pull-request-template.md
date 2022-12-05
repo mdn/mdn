@@ -1,6 +1,7 @@
 # Nominating [GitHub username] as a [role]
 
 Thank you for taking the time to nominate a fellow contributor. Make sure you read our [list of prerequisites](https://developer.mozilla.org/en-US/docs/MDN/Community/Users_teams) for the relevant role before submitting a nomination.
+Please submit information for the person you are nominating in the sections listed below.
 
 ## GitHub username (required)
 
