@@ -12,7 +12,7 @@ For more details on our spotlight contributor program, see our [community docume
 ### Michael Koch
 
 - [On GitHub](https://github.com/mikoMK)
-- [On MDN Web Docs](https://developer.mozilla.org/en-US/community/spotlight/mikoMK)
+- [On MDN Web Docs](https://developer.mozilla.org/en-US/community/spotlight/michael-koch)
 
 ### Michał Niedziółka
 
