@@ -5,7 +5,7 @@ Please submit information for the person you are nominating in the sections list
 
 ## GitHub username of the nominee (required)
 
-## GitHub profile link (required)
+## GitHub profile link of the nominee (required)
 
 ## Reason for nominating this person (required)
 
