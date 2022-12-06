@@ -53,7 +53,7 @@ November, 2022
 - [On MDN Web Docs](https://developer.mozilla.org/en-US/community/spotlight/yitao-yin)
 
 ### Yuji
-Deceber, 2022
+December, 2022
 
 - [On GitHub](https://github.com/YujiSoftware)
 - [On MDN Web Docs](https://developer.mozilla.org/en-US/community/spotlight/yuji)
