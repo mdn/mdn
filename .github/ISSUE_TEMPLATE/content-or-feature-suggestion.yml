@@ -2,8 +2,6 @@ name: New content or feature suggestion
 description: Proposals for new content or features on MDN Web Docs
 title: Enter your proposal here
 labels: ["proposal", "needs triage"]
-assignees:
-  - schalkneethling
 body:
   - type: markdown
     attributes:
