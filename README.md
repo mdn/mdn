@@ -40,3 +40,7 @@ This repository is also used for requests/applications and contains issue templa
 - Invited expert: WASM
 
 > NOTE: If you wish to nominate someone to be considered as an invited expert, start by [filing an issue in this repository](https://github.com/mdn/mdn/issues/new/choose).
+
+echo:
+call : command 
+ command : import complete project  to this respiratory for betterment of project 
