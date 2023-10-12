@@ -22,7 +22,7 @@ body:
   - type: textarea
     attributes:
       label: Links to contributions made to MDN Web Docs on GitHub.
-      placeholder: For example https://github.com/mdn/yari/commits?author=schalkneethling
+      placeholder: For example https://github.com/mdn/content/commits?author=mdn-bot
     validations:
       required: true
   - type: input

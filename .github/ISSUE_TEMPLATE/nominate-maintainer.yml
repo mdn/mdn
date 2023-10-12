@@ -36,6 +36,6 @@ body:
       label: Supporting evidence
       description: |
         Provide evidence to support your nomination such as contributions and interactions with the community.
-          Links to [commit logs](https://github.com/mdn/yari/commits?author=schalkneethling) in a repository are also appropriate.
+          Links to [commit logs](https://github.com/mdn/content/commits?author=mdn-bot) in a repository are also appropriate.
     validations:
       required: true

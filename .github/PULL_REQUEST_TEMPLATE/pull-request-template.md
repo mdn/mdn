@@ -14,6 +14,6 @@ Tell us why you are nominating this person to become a spotlight contributor.
 ## Supporting evidence for nominating this person (required)
 
 Provide evidence to support your nomination. The supporting information can include a list of their contributions and interactions with the community.
-You can also provide links to [commit logs](https://github.com/mdn/yari/commits?author=schalkneethling).
+You can also provide links to [commit logs](https://github.com/mdn/content/commits?author=mdn-bot).
 
 > Remember, contributions to this repository should follow its [code of conduct](https://github.com/mdn/mdn/blob/main/CODE_OF_CONDUCT.md).
