@@ -2,8 +2,6 @@ name: Nominate a spotlight contributor
 description: Use this template to nominate a spotlight contributor.
 title: Nominating [GitHub username] as a spotlight contributor
 labels: ['spotlight-contributor']
-assignees:
-  - schalkneethling
 body:
   - type: markdown
     attributes:

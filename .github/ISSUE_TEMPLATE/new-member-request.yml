@@ -2,8 +2,6 @@ name: New Member Request
 description: Use this template to request to become a member of an MDN Web Docs GitHub team
 title: Requesting to become a member of the [team-name] team
 labels: ["team membership request"]
-assignees:
-  - schalkneethling
 body:
   - type: markdown
     attributes:

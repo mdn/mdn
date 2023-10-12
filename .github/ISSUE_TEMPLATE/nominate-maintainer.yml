@@ -2,8 +2,6 @@ name: Nominate a maintainer
 description: Use this template when nominating an individual to become a maintainer of an MDN Web Docs repository.
 title: Nominating a maintainer for [repository-name]
 labels: ["repo maintainer nomination"]
-assignees:
-  - schalkneethling
 body:
   - type: markdown
     attributes:
