@@ -6,9 +6,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thank you for taking the time to put together a proposal for adding/updating content or a website feature on MDN Web Docs.
-        We have a well-defined process for handling these requests.
-        For more information, see our [Community Guidelines](https://developer.mozilla.org/en-US/docs/MDN/Community).
+        Thank you for taking the time to put together a proposal for adding/updating content or a website feature on MDN Web Docs. We have a well-defined process for handling these requests which you can read about in our [Community Guidelines](https://developer.mozilla.org/en-US/docs/MDN/Community).
+
+        New or experimental web platform features must be supported in at least **one stable browser release** before documentation is published to MDN. For more information, see the [What we write](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/What_we_write#suggesting_content) and the [experimental technologies](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Experimental_deprecated_obsolete) documentation.
   - type: textarea
     attributes:
       label: Proposal
@@ -16,12 +16,22 @@ body:
     validations:
       required: true
   - type: textarea
-    id: task-list
     attributes:
-      label: Task list
-      description: List the steps involved to complete this project.
+      label: Browser support
+      description: Is this feature available in a stable browser release? If so, in which version is it supported? Adding links to browser implementation bugs or other documentation speeds up this process.
+  - type: textarea
+    attributes:
+      label: Tasks
+      description: What needs to be done to complete this task?
       value: |
-        - [ ] 
+        - [ ]
+  - type: textarea
+    attributes:
+      label: Dependencies
+      description: |
+        Does this task depend on anything else to be completed first? Links to GitHub issues or pull requests are helpful.
+      value: |
+        - [ ]
   - type: textarea
     attributes:
       label: Additional information
@@ -30,9 +40,6 @@ body:
   - type: input
     attributes:
       label: Are you willing to support this work?
-      description: MDN Web Docs is an open source project and welcomes contributions. Please state whether you are willing to help with the proposed work and in what capacity; this can be undertaking the work or supporting with reviews and/or queries.
-  - type: textarea
-    attributes:
-      label: Depends on
-      description: |
-        Does this work depend on any other work to be complete before it can begin? (Please provide links to existing issues if possible).
+      description: >
+        MDN Web Docs is an open source project and welcomes contributions.
+        Let us know whether you are willing to help with the proposed work and in what capacity; this can be undertaking the task itself or supporting with reviews and/or feedback.
