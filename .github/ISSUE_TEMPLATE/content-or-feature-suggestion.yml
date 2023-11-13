@@ -15,18 +15,11 @@ body:
       description: Please describe the content or feature you are proposing and why it is needed.
     validations:
       required: true
-  - type: dropdown
-    id: browser
+  - type: textarea
     attributes:
       label: Browser support
-      description: Is this feature available in a stable browser release?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
+      description: Is this feature available in a stable browser release? If so, in which version is it supported? Adding links to browser implementation bugs or other documentation speeds up this process.
   - type: textarea
-    id: task-list
     attributes:
       label: Tasks
       description: What needs to be done to complete this task?
