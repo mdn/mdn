@@ -1,6 +1,6 @@
 # MDN Web Docs on Github
 
-👋 Welcome, Bienvenida, 欢迎, Bienvenue, いらっしゃいませ, Receber, Добро пожаловать, 환영합니다, მოგესალმებით
+👋 Welcome, Bienvenida, 欢迎, Bienvenue, いらっしゃいませ, Receber, Добро пожаловать, 환영합니다, მოგესალმებით, Добре дошли
 
 ![github-profile](https://user-images.githubusercontent.com/10350960/166113119-629295f6-c282-42c9-9379-af2de5ad4338.png)
 
