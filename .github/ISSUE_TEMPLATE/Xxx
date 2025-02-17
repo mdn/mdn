@@ -1,0 +1,5 @@
+// Almacena la información en sessionStorage
+sessionStorage.setItem("key", "value");
+
+// Obtiene la información almacenada desde sessionStorage
+var data = sessionStorage.getItem("key");
