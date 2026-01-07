@@ -1,17 +1,17 @@
-# MDN Web Docs on Github
+# MDN Web Docs no GitHub
 
 👋 Welcome, Bienvenida, 欢迎, Bienvenue, いらっしゃいませ, Receber, Добро пожаловать, 환영합니다, მოგესალმებით
 
-![github-profile](https://user-images.githubusercontent.com/10350960/166113119-629295f6-c282-42c9-9379-af2de5ad4338.png)
+[Perfil do GitHub](https://user-images.githubusercontent.com/10350960/166113119-629295f6-c282-42c9-9379-af2de5ad4338.png)
 
-Welcome to the `mdn` repository which we use to track MDN team work.
-The [MDN teams public projects are here](https://github.com/orgs/mdn/projects), where you can view current and upcoming tasks.
+Bem-vindo ao  `Homem`  repositório que usamos para rastrear o trabalho em equipe da MDN.
+O [Os projetos públicos das equipes MDN estão aqui](https://github.com/orgs/mdn/projects)onde você pode visualizar as tarefas atuais e futuras.
 
-This repository is also used for requests and contains issue templates for the following processes:
+Este repositório também é usado para solicitações e contém modelos de problemas para os seguintes processos:
 
-- [Proposing new content or features for MDN Web Docs](https://github.com/mdn/mdn/issues/new/choose)
-- [Nominating an invited expert](https://github.com/mdn/mdn/issues/new/choose)
-- [Nominating a co-maintainer](https://github.com/mdn/mdn/issues/new/choose)
+- [Propondo novos conteúdos ou recursos para MDN Web Docs](https://github.com/mdn/mdn/issues/new/choose)
+- [Nomeação de um especialista convidado](https://github.com/mdn/mdn/issues/new/choose)
+- [Nomeação de um co-mantenedor](https://github.com/mdn/mdn/issues/new/choose)
 
 ## Invited experts
 
