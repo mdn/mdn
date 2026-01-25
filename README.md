@@ -12,6 +12,19 @@ This repository is also used for requests and contains issue templates for the f
 - [Proposing new content or features for MDN Web Docs](https://github.com/mdn/mdn/issues/new/choose)
 - [Nominating an invited expert](https://github.com/mdn/mdn/issues/new/choose)
 - [Nominating a co-maintainer](https://github.com/mdn/mdn/issues/new/choose)
+## Quick start for first-time contributors
+
+New to MDN Web Docs? You can get started quickly:
+
+1. Decide how you want to contribute:
+   - Proposing new content or features
+   - Helping with documentation improvements
+   - Supporting the community through discussions
+2. Review the contribution options available in this repository.
+3. Open an issue using the appropriate template — no prior assignment needed.
+4. Participate in the discussion and follow up as needed.
+
+Small, thoughtful contributions are welcome and encouraged.
 
 ## Invited experts
 
