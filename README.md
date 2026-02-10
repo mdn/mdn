@@ -7,6 +7,8 @@
 Welcome to the `mdn` repository which we use to track MDN team work.
 The [MDN teams public projects are here](https://github.com/orgs/mdn/projects), where you can view current and upcoming tasks.
 
+If you'd like to contribute to MDN Web Docs, see [MDN Github repositories](https://developer.mozilla.org/en-US/docs/MDN/Community/Our_repositories) to get started.
+
 This repository is also used for requests and contains issue templates for the following processes:
 
 - [Proposing new content or features for MDN Web Docs](https://github.com/mdn/mdn/issues/new/choose)
