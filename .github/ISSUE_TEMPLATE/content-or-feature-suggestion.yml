@@ -8,7 +8,9 @@ body:
       value: |
         Thank you for taking the time to put together a proposal for adding/updating content or a website feature on MDN Web Docs. We have a well-defined process for handling these requests which you can read about in our [Community Guidelines](https://developer.mozilla.org/en-US/docs/MDN/Community).
 
-        New or experimental web platform features must be supported in at least **one stable browser release** before documentation is published to MDN. For more information, see the [What we write](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/What_we_write#suggesting_content) and the [experimental technologies](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Experimental_deprecated_obsolete) documentation.
+        New or experimental web platform features must be supported in at least **one stable browser release** before documentation is published to MDN. For more information, see the [What we write](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/What_we_write#suggesting_content) and the [experimental technologies](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Experimental_deprecated_obsolete) documentation. Please don’t request documentation for new features or specification updates until they’ve been implemented in browsers. Our ongoing update processes detect when these changes land.
+
+        If you’re suggesting a new feature or improvement to the MDN website, please include examples to help us understand what you have in mind.
   - type: textarea
     attributes:
       label: Proposal
